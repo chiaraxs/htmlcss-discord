@@ -34,8 +34,10 @@ header{
     padding-top: 10px ;
 }
 
-.menu fl{
+.menu .fl{
     position: absolute;
+    left: 50%;
+    transform: translate(-50%);
 } 
 
 .logo img{
@@ -72,19 +74,40 @@ header{
     background-color: white;
     padding: 5px 10px;
     border-radius: 20px;
-    margin-top: 5px;
-    margin-left: 100px;
+    color: black;
+    padding: 10px;
+    
 }
 
 .small{
     width: 70px;
-    height: 30px;
-    float: left;
-    
-    color: black;
+    position: absolute;
+    right: 70px;
 }
 
 .small a{
     text-decoration: none;
 }
 /* NAVBAR */
+
+.jumbotron{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+
+.download, .web{
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+.black-button{
+    background-color: rgb(37, 37, 37);
+    padding: 10px 10px;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+}
