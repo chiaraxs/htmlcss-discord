@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+header{
+    height: 450px;
+    background-image: url("../img/jumbo.png");
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.fl{
+    float: left;
+}
+
+/* NAVBAR */
+.navbar{
+    width: 100%; 
+    padding-top: 10px ;
+}
+
+.menu fl{
+    position: absolute;
+} 
+
+.logo img{
+    margin-left:  200px;
+    margin-top: 5px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 5px;
+
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 5px 10px;
+    color: white;
+}
+
+.navbar ul li:hover {
+    background: #104E8B;
+    border-radius: 10px;
+}
+
+.navbar ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+
+.white-button{
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+.small{
+    width: 70px;
+    height: 30px;
+    float: left;
+    
+    color: black;
+}
+
+.small a{
+    text-decoration: none;
+}
+/* NAVBAR */
