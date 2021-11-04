@@ -10,12 +10,6 @@
     margin: 0 auto;
 }
 
-.container:after {
-    content:"";
-    display: table;
-    clear: both;
-}
-
 header{
     height: 450px;
     background-image: url("../img/jumbo.png");
@@ -90,6 +84,7 @@ header{
 }
 /* NAVBAR */
 
+/* JUMBOTRON */
 .jumbotron{
     position: absolute;
     top:50%;
@@ -111,3 +106,39 @@ header{
     color: white;
     padding: 10px;
 }
+
+/* SECTION 1 */
+
+.section:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.section{
+width: 100%;
+   margin: 40px 20px;
+}
+
+.section-img{
+    width: 70%;
+    float: left;
+}
+
+
+h2:first-child{
+    font-size: 50px;
+    width: 30%;
+    float: left;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    }
+
+p{
+    font-size: 15px;
+    line-height: 30px;
+}
+    
+/* SECTION 2 */
+
